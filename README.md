@@ -1,20 +1,33 @@
 # Bey-Slay
 
-- You have an api of Beyonce images that have a key of "favorite" which defaults to false
-- Your Beyonce images are held in state in the BeyContainer component
+The database of Beyonce objects can be found in a JSON-server. If you haven't already done so install json-server:
+
+TO INSTALL: npm install -g json-server
+
+Then start the json-server:
+
+TO START: json-server --watch db.json
+
+1. Make a GET request to `http://localhost:4000/beys`. You should get a response that is an array of multiple book objects that look like this:
+   `{ "id": 1, "name": "All Day Slay", "img": "https://media.giphy.com/media/3o6gb7cN7bwDxAbnS8/giphy.gif", "favorite": false}`
+
+# Deliverables:
+
 - Render a list of all Beyonce images
-- When a User clicks on a Beyonce image it should change the "favorite" key true (if it was set to false) or false (if it was set to true)
+- When a User clicks on a Beyonce image in BeyContainer it should change the "favorite" key to true (if it was set to false) or false (if it was set to true)
 
 # What are we practicing?
 
-- changing state of a parent component
+- deciding which component should make our fetch request
+- deciding which component(s) should have state
+- changing state of a parent component from its child
 - passing a callback function as a prop to be used by a child component
 - manipulating objects inside of arrays in state
-- rendering a component from multiple parents
+- reusing a component
 - lifting state
 
 ### Hint
 
-- To solve this project you may need to do some refactoring
+- functions can also be passed as props
 
 ![beyonce gif](bey-slay.gif)
