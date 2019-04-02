@@ -9,17 +9,12 @@ Then start the json-server:
 TO START: json-server --watch db.json
 
 1. Make a GET request to `http://localhost:4000/beys`. You should get a response that is an array of multiple book objects that look like this:
-   `{
-     "id": 1,
-     "name": "All Day Slay",
-     "img": "https://media.giphy.com/media/3o6gb7cN7bwDxAbnS8/giphy.gif",
-     "favorite": false
-   }`
+   `{ "id": 1, "name": "All Day Slay", "img": "https://media.giphy.com/media/3o6gb7cN7bwDxAbnS8/giphy.gif", "favorite": false }`
 
 # Deliverables:
 
 - Render a list of all Beyonce images
-- When a User clicks on a Beyonce image in BeyContainer it should change the "favorite" key to true (if it was set to false) or false (if it was set to true)
+- When a User clicks on a Beyonce image in BeyContainer it should change the "favorite" key to true, which adds it to the Favorites container or false, which should then remove it from the Favorites container
 
 # What are we practicing?
 
