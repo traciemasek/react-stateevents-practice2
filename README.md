@@ -28,6 +28,7 @@ TO START: json-server --watch db.json
 
 ### Hint
 
+- to complete this project you may need to do some refactoring
 - functions can also be passed as props
 
 ![beyonce gif](bey-slay.gif)
