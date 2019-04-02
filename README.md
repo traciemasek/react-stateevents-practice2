@@ -9,7 +9,12 @@ Then start the json-server:
 TO START: json-server --watch db.json
 
 1. Make a GET request to `http://localhost:4000/beys`. You should get a response that is an array of multiple book objects that look like this:
-   `{ "id": 1, "name": "All Day Slay", "img": "https://media.giphy.com/media/3o6gb7cN7bwDxAbnS8/giphy.gif", "favorite": false}`
+   `{
+     "id": 1,
+     "name": "All Day Slay",
+     "img": "https://media.giphy.com/media/3o6gb7cN7bwDxAbnS8/giphy.gif",
+     "favorite": false
+   }`
 
 # Deliverables:
 
