@@ -14,7 +14,7 @@ TO START: json-server --watch db.json
 # Deliverables:
 
 - Render a list of all Beyonce images
-- When a User clicks on a Beyonce image in BeyContainer it should change the "favorite" key to true, which adds it to the Favorites container or false, which should then remove it from the Favorites container
+- When a User clicks on a Beyonce image in BeyContainer it should change the "favorite" key to true, which adds it to the Favorites container, or false, which should then remove it from the Favorites container
 
 # What are we practicing?
 
