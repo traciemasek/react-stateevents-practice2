@@ -18,6 +18,7 @@ TO START: json-server --watch db.json
 
 # What are we practicing?
 
+- using both functional and class components
 - deciding which component should make our fetch request
 - deciding which component(s) should have state
 - changing state of a parent component from its child
