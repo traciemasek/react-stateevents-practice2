@@ -3,6 +3,14 @@ import BeyCard from "./BeyCard"
 
 const BeyContainer = (props) => {
   
+  //Gabbie's multiline ternary
+  // let beysArr = props.beys.map(beyObj => {
+  //   return beyObj.favorite 
+  //   ? <BeyCard key={beyObj.id} bey={beyObj} /> 
+  //   : <BeyCard key={beyObj.id} bey={beyObj} toggleFavorite={props.toggleFavorite}/> 
+  // })
+
+  
   let beysArr = props.beys.map(beyObj => {
     if (beyObj.favorite) {
       return <BeyCard key={beyObj.id} bey={beyObj} />
